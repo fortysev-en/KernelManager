@@ -35,8 +35,8 @@ public class HelpFragment extends RecyclerViewFragment {
     private static final LinkedHashMap<Integer, Integer> sHelps = new LinkedHashMap<>();
 
     static {
-        sHelps.put(R.string.misspelled, R.string.misspelled_summary);
-        sHelps.put(R.string.have_to_donate, R.string.have_to_donate_summary);
+        sHelps.put(R.string.new_ver, R.string.new_ver_summary);
+        sHelps.put(R.string.can_update, R.string.can_update_summary);
         sHelps.put(R.string.cpu_freq_not_sticking, R.string.cpu_freq_not_sticking_summary);
         sHelps.put(R.string.feature_not_appearing, R.string.feature_not_appearing_summary);
         sHelps.put(R.string.feature_function, R.string.feature_function_summary);
