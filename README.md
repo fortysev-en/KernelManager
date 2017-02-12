@@ -1,6 +1,6 @@
 # KernelManager
 
-This App is actully Kernel Adiutor from Grarak {[GitHub Profile]} (https://github.com/Grarak) and modified by me for Xperia ACRO S
+This App is actully Kernel Adiutor from Grarak [GitHub Profile] (https://github.com/Grarak) and modified by me for Xperia ACRO S
 
 This App has had it's installtion directory, app name, and package name change from the Original Kernel Adiutor.
 This was not done in an attempt to disguise it as it's own app. It was intended to prevent conflicts if you choose to keep Grarak's Kernel Adiutor installed.
