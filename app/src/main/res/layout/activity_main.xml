@@ -55,6 +55,14 @@
                 android:padding="20dp"
                 android:text="@string/collecting_info" />
 
+            <TextView
+                android:id="@+id/info_dev"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="120dp"
+                android:paddingLeft="20dp"
+                android:text="@string/info_dev" />
+
         </LinearLayout>
 
         <ProgressBar

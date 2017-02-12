@@ -1,5 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">Kernel Adiutor</string>
+
+    <!--hitman-xda mod-->
+    <string name="app_name">Kernel Manager</string>
+    <string name="info_dev">MOD by hitman-xda</string>
+    <string name="about_me">Hi, I\'m Willi Ye aka Grarak, a 19 year old student living in Vienna. I\'ve been developing on Android for quite a long time. Beside Kernel Adiutor I\'m also maintaining CyanogenMod for few devices and working on ParanoidAndroid. So please understand if I don\'t find the time to update this application.</string>
+
 
     <string name="checking_info">Checking info…</string>
     <string name="checking_root">Checking root access</string>
@@ -850,7 +855,6 @@
     <string name="sections">Sections</string>
 
     <!-- About -->
-    <string name="about_me">Hi, I\'m Willi Ye aka Grarak, a 19 year old student living in Vienna. I\'ve been developing on Android for quite a long time. Beside Kernel Adiutor I\'m also maintaining CyanogenMod for few devices and working on ParanoidAndroid. So please understand if I don\'t find the time to update this application.</string>
     <string name="libraries_used">Libraries used</string>
 
     <!-- Contributors -->
