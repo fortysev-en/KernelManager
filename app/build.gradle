@@ -16,7 +16,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.grarak.kerneladiutor"
+        applicationId "com.hitman.kernelmanager"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 221
@@ -60,5 +60,3 @@ dependencies {
     compile 'org.cyanogenmod:platform.sdk:5.0.1'
     testCompile 'junit:junit:4.12'
 }
-
-apply plugin: 'com.google.gms.google-services'
