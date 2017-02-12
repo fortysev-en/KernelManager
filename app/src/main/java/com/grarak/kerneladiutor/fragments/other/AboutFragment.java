@@ -91,6 +91,7 @@ public class AboutFragment extends RecyclerViewFragment {
         items.add(cardView);
     }
 
+
     public static class InfoFragment extends BaseFragment {
         @Nullable
         @Override
