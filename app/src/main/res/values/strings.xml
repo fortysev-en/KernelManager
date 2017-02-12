@@ -3,8 +3,7 @@
     <!--hitman-xda mod-->
     <string name="app_name">Kernel Manager</string>
     <string name="info_dev">MOD by hitman-xda</string>
-    <string name="about_me">Hi, I\'m Willi Ye aka Grarak, a 19 year old student living in Vienna. I\'ve been developing on Android for quite a long time. Beside Kernel Adiutor I\'m also maintaining CyanogenMod for few devices and working on ParanoidAndroid. So please understand if I don\'t find the time to update this application.</string>
-
+    <string name="about_me">Hi, I\'m hitman-xda, a 22 year old student living in India. I\'ve been working on Android recently. This App is forked and modded from its original source from Grarak. Beside Kernel Manager I\'m also maintaining nAOSP for Xperia ACRO S. So please understand if I don\'t find the time to update this application.</string>
 
     <string name="checking_info">Checking info…</string>
     <string name="checking_root">Checking root access</string>
