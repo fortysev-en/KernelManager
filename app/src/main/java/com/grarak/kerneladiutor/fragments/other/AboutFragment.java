@@ -52,7 +52,6 @@ public class AboutFragment extends RecyclerViewFragment {
         sLibraries.put("Google,v7 recyclerview library", "https://developer.android.com/topic/libraries/support-library/features.html#v7");
         sLibraries.put("Ozodrukh,CircularReveal", "https://github.com/ozodrukh/CircularReveal");
         sLibraries.put("Roman Nurik,dashclock", "https://github.com/romannurik/dashclock");
-        sLibraries.put("Google,AdMob", "https://developers.google.com/android/guides/setup");
         sLibraries.put("Matthew Precious,swirl", "https://github.com/mattprecious/swirl");
         sLibraries.put("Lopez Mikhael,CircularImageView", "https://github.com/lopspower/CircularImageView");
         sLibraries.put("Square,picasso", "https://github.com/square/picasso");
@@ -101,7 +100,7 @@ public class AboutFragment extends RecyclerViewFragment {
             rootView.findViewById(R.id.image).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Utils.launchUrl("https://github.com/Grarak", getActivity());
+                    Utils.launchUrl("https://github.com/hitman-xda", getActivity());
                 }
             });
             return rootView;
