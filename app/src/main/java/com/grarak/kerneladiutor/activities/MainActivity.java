@@ -61,6 +61,10 @@ import com.grarak.kerneladiutor.utils.kernel.thermal.Thermal;
 import com.grarak.kerneladiutor.utils.kernel.wake.Wake;
 import com.grarak.kerneladiutor.utils.root.RootUtils;
 
+import android.app.Activity;
+import android.view.Window;
+import android.view.WindowManager;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -113,6 +117,7 @@ public class MainActivity extends BaseActivity {
             }
         }
     }
+	
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -157,6 +162,18 @@ public class MainActivity extends BaseActivity {
 
         }
     }
+	
+	public class ActivityName extends Activity {
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // remove title
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_main);
+    }
+}
 
     /**
      * Launch {@link NavigationActivity} which is the actual interface
@@ -296,7 +313,7 @@ public class MainActivity extends BaseActivity {
 
             // Initialize Google Ads
             MobileAds.initialize(MainActivity.this, "ca-app-pub-1851546461606210~9501142287");
-
+			
             // Execute another AsyncTask for license checking
             new AsyncTask<Void, Void, Boolean>() {
 
